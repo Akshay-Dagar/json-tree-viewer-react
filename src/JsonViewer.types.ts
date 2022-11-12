@@ -1,7 +1,6 @@
 import { CSSProperties } from 'react'
 import { IAccordionProps, IAccordionStyleFunctionOrObject, IAccordionStyleProps, IAccordionStyles } from 'react-collapsible-accordion-accessible'
 
-
 export interface IJsonViewerProps {
     data: Object
     styles?: IJsonViewerStyles
@@ -14,8 +13,8 @@ export interface IJsonViewerStyles {
 }
 
 export interface IJsonNodeProps {
-    title: string
-    value: object
+    title?: string
+    value?: object
     seperator?: any
     styles?: IJsonNodeStyles
     jsonViewerStyles?: IJsonViewerStyles

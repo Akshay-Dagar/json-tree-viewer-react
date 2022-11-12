@@ -13,8 +13,8 @@ const JsonNode:React.FC<IJsonNodeProps> = (props: IJsonNodeProps) => {
   return (
     <div style={props.styles?.root} className='jsonnode-root'>
       {checkIfObjectOrArray(props.value) ? 
-        <Accordion {...{...props.accordionProps, title: props.title, styles: props.accordionProps?.styles || props.styles?.accordion, icon: accordionIcon}}>
-          <JsonViewer data={props.value} jsonNodeProps={props} styles={props.jsonViewerStyles}/>
+        <Accordion {...{...props.accordionProps, title: props.title || "", styles: props.accordionProps?.styles || props.styles?.accordion, icon: accordionIcon}}>
+          <JsonViewer data={props.value || {}} jsonNodeProps={props} styles={props.jsonViewerStyles}/>
         </Accordion>
         : 
         <div style={props.styles?.content} className='jsonnode-content'>
