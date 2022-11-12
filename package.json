@@ -1,6 +1,6 @@
 {
   "name": "json-tree-viewer-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "json-tree-viewer-react is A react component that displays json data in the form of a tree upto infinite levels",
   "main": "dist/index.js",
   "scripts": {
