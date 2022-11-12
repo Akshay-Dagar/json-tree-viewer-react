@@ -1,0 +1,102 @@
+.jsonviewer-root {
+    display: flex;
+    flex-direction: column;
+}
+
+.jsonnode-root {
+    padding: 0.2rem 0;
+}
+
+.jsonnode-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.jsonnode-title {
+    margin-left: 1.8rem;
+    margin-right: 0.5rem;
+}
+
+.jsonnode-seperator {
+    margin-right: 1rem;
+}
+
+.jsonnode-value {
+
+}
+
+.jsonnode-root .accordion-root {
+    padding: 0;
+    margin: 0;
+}
+
+.jsonnode-root .accordion-header {
+    background-color: #fff;
+}
+
+.jsonnode-root .accordion-header:hover {
+    background-color: #eff3f6;
+    border-radius: 0.2rem;
+}
+
+.jsonnode-root .accordion-title {
+    order: 2;
+    margin-left: 0.5rem;
+    font-size: medium;
+    font-weight: normal;
+    transition: all 0.1s ease;
+    padding: 0.1rem 0.2rem;
+}
+
+.jsonnode-root .accordion-title:hover {
+    background-color: #eff3f6;
+    border-radius: 0.2rem;
+}
+
+.jsonnode-root .accordion-icon-root {}
+
+.jsonnode-root .accordion-icon {
+    margin-right: 0;
+    font-size: 1.5em;
+}
+
+.jsonnode-root .accordion-icon-expanded {
+    margin-right: 0;
+    font-size: 1.5em;
+    transform: rotate(90deg);
+}
+
+.jsonnode-root .accordion-expanded-icon {
+    margin-right: 0;
+    font-size: 1.5em;
+}
+
+.jsonnode-root .accordion-icon:hover {
+    background-color: #eff3f6;
+    border-radius: 0.2rem;
+}
+
+.jsonnode-root .accordion-expanded-icon:hover {
+    background-color: #eff3f6;
+    border-radius: 0.2rem;
+}
+
+.jsonnode-root .accordion-header-button {
+    justify-content: flex-start;
+    padding: 0;
+    transition: all 0.1s ease;
+}
+
+.jsonnode-root .accordion-content {
+    background-color: #fff;
+    text-align: left;
+}
+
+.jsonnode-root .accordion-content-expanded {
+    background-color: #fff;
+    border-left: 1px solid #b9bec2;
+    margin-left: 0.6rem;
+    padding-left: 0.7rem;
+    overflow: visible;
+    text-align: left;
+}
